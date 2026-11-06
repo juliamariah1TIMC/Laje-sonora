@@ -111,8 +111,10 @@ max-width: 9ch;
     border: none;
     font-family: var(--fonte-texto);
     font-size: 17px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .botao:hover{
     background: var(--caixa-dagua);
 }
+
+
