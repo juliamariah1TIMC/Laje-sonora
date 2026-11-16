@@ -101,16 +101,32 @@ h1, h2, h3 {
 }
 
 .titulo-pagina{
-
+    font-size: 160px;
+    margin-top: 24px;
 }
 .subtitulo-pagina{
-
+font-size: 22px;
+max-width: 640px;
+margin-top: 16px;
 }
 .filtros{
-
+margin-top: 48px;
+display: flex;
+gap: 12px;
 }
 .filtro{
-    
+    border: 2px solid var(--tinta);
+    padding: 8px 18px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.filtro.ativo{
+background: var(--tinta);
+color: var(--branco);
+}
+.lista{
+    margin-top: 40px;
 }
 
 .foto {
