@@ -203,3 +203,22 @@ h1, h2, h3 {
 .foto-tinta {
     background: var(--tinta);
 }
+
+
+@media (max-width: 800px) {
+
+    .oficina, .rodape-colunas {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .titulo-pagina {
+        font-size: 96px;
+    }
+
+    .oficina .foto,
+    .oficina-detalhes {
+        width: 100%;
+    }
+
+}
